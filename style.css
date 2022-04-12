@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 29, 80);
+}
+
+.container {
+    height: 559px;
+    width: 950px;
+    background-color: rgb(21, 143, 174);
+    border-radius: 10px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 353px;
+    width: 544px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-radius: 10px; */
+}
+
+.inner img {
+    cursor: pointer;
+    position: relative;
+    right: -250px;
+    top: -43px;
+}
+
+.text {
+    height: 250px;
+    width: 466px;
+    background-color: rgb(244, 238, 238);
+    border-radius: 5px;
+    border-radius: 5px;
+    margin-top: -24px;
+}
+
+#newQ {
+    width: 546px;
+    position: relative;
+    top: 59px;
+    left: -40px;
+    /* border-radius: 9px; */
+    height: 39px;
+    background: #2162c7;
+    cursor: pointer;
+    overflow: hidden;
+    /* font-weight: bold; */
+    font-size: large;
+}
+
+#newQ:hover {
+    background: #31aae2;
+}
+
+#quotes {
+    /* border: 1px solid black; */
+    position: relative;
+    top: 60px;
+    left: 17px;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    overflow: auto;
+    height: 62px;
+}
+
+#author {
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: relative;
+    left: 225px;
+    top: 53px;
+    font-family: 'Dancing Script', cursive;
+    overflow: auto;
+    font-size: x-large;
+    height: 62px;
+}
+
+#by {
+    /* border: 1px solid black; */
+    display: inline-block;
+    position: relative;
+    left: 184px;
+    top: 104px;
+    font-family: 'Dancing Script', cursive;
+    overflow: auto;
+    font-size: x-large;
+}
+
+.symbol1 {
+    position: relative;
+    top: 39px;
+    left: 20px;
+}
+
+.symbol2 {
+    position: relative;
+    top: 45px;
+    left: 350px;
+}
